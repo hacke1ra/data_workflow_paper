@@ -7,7 +7,7 @@
 &nbsp;&nbsp;&nbsp;ID - An identifier to use as the prefix of the new image filename<br>
 &nbsp;&nbsp;&nbsp;PhotoStart - The current filename of first image of the sequence to be copied or renamed. The last characters of the filename should be numerals<Br>
 &nbsp;&nbsp;&nbsp;PhotoEnd - The current filename of the last image of the sequence to be copied or renamed. If only one image in the sequence, it will be the same value as PhotoStart<br>
-##   The names in the column should not have a filename suffix (e.g., .jpg)
+<br>The names in the column should not have a filename suffix (e.g., .jpg)
 ## 3. A destination folder for copied images
 <hr>
 <p>The code will rename field image files sequntially to a unique HumanObservation or PreservedSpecimen record. Those for PreservedSpecimens will be renamed with the catalogNumber (i.e. Barcode) then sequentially throught the alphabet (up to 26 field images): CMC00104557_A; CMC00104557_B. Those for HumanObservations will be by eventID (e.g., LLF14) as the prefix for new file names. Images will be renamed in their original location and copied to a destination of your choosing.</p>
